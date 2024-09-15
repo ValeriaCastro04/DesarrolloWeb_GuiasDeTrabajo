@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fredoka:wght@300..700&family=Patrick+Hand&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+#titulo1{
+    font-family: "Concert One", sans-serif;
+    color:#3c3839;
+    font-weight: 200;
+    font-size: 40px;
+    font-style: normal;
+}
+header{
+    text-align: center;
+    padding: 20px;
+    background-color:#e3ecf3;
+
+}
+span.stickers{
+    color: #fcacce;
+}
+nav{
+    background-color: #95c1e8;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+nav span a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 25px;
+    font-family: "Shantell Sans", cursive;
+    color: white;
+    background-color: inherit;
+    display: inline-block;
+}
+section{
+    overflow: hidden;
+}
+
+nav span a:hover{
+    font-weight: bold;
+}
+
+nav span a:active{
+    color: #fcacce;
+}
+
+.textos>p{
+    font-size: 20px;
+}
+
+section>article div{
+    width: 40%;
+    float: left;
+
+}
+
+div.textos+div.imagenes img{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 250px;
+    height: 300px;
+    border-radius: 20%;
+}
+
+article.container{
+    margin: 40px 0;
+    align-items: center;
+}
+
+footer{
+    background-color: #95c1e8;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Shantell Sans", cursive;
+    color: white;
+}
+
+h1~p{
+    text-align: justify;
+    line-height: 35px;
+}
+
+div.textos, div.imagenes{
+    box-sizing: border-box;
+}
+
+div.textos{
+width: 55%;
+float: left;
+margin-left: 30px;
+}
+
+div.imagenes{
+    float: right;
+    width: 40%;
+}
+
+div[class="textos"] h1{
+    color: #322d2f;
+    font-family: "Concert One", sans-serif;
+    font-size: 30px;
+}
+div[class="textos"] p{
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
