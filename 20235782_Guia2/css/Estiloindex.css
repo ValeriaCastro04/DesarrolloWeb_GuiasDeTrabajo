@@ -21,8 +21,9 @@ h2{
     color: rgb(79, 120, 196);
 }
 
-Li a:hover{
+Li:hover{
     font-weight: bold;
     font-size: 1.6rem;
     color: darkslateblue;
 }
+
