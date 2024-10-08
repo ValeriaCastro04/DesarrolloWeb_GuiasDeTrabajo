@@ -257,3 +257,230 @@ footer {
     color: var(--color2);
     font-family: "Concert One", sans-serif;
 }
+
+
+@media screen and (min-width: 481px) and (max-width:
+768px){
+    h1#titulo1 {
+        font-size: 4vw;
+        padding: 2vw;
+
+    }
+    
+    nav {
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+    nav span a {
+        font-size: 2vw;
+    }
+    footer {
+        position: static;
+        height: 2vw;
+        padding: 1vw;
+        width: 98%;
+    }
+
+    section.Datos h1 {
+        font-size: 5vw;
+    }
+    
+    section.Datos h2 {
+        font-size: 4vw;
+    }
+    section.Datos p {
+        line-height: 5vw;
+        font-size: 3vw;
+    }
+    section#ejercicios h1 {
+        padding-bottom: 2vw;
+        font-size: 5vw;
+    }
+
+    section#ejercicios article p {
+        line-height: 4vw;
+        font-size: 3VW;
+    }
+    
+    section#ejercicios article ul {
+        line-height: 4vw;
+        margin-top: 5vw;
+    }
+    
+    section#ejercicios article li {
+        list-style: none;
+        font-size: 3vw;
+    }
+
+    section#FODA {
+        padding-top: 1vw;
+        margin: 5vw;
+    }
+    
+    section#FODA h1 {
+        font-size: 6vw;
+    }
+
+    section#FODA article.cajas h2 {
+        font-size: 5vw;
+    }
+
+        
+    section#FODA article.cajas div li {
+        font-size: 3vw;
+    }
+    
+    section#Retro p {
+        font-size: 4vw;
+        line-height: 6vw;
+        padding: 2vw;
+    }
+
+    section#aprendizaje h1~h2{
+        font-size: 4vw;
+    }
+
+    section#aprendizaje{
+        margin: 5VW 8VW 5VW;
+    }
+    
+    section#aprendizaje li a{
+        text-decoration: none;
+    line-height: 4vw;
+    font-family: "Concert One", sans-serif;
+    color: var(--color5);
+    font-size: 3vw;
+    
+    }
+    
+    section#aprendizaje p{
+        line-height: 4vw;
+        font-size: 3vw;
+    }
+
+    section#Retro h1, section#aprendizaje h1{
+        font-size: 5vw;
+    }
+    
+    
+}
+@media screen and (min-width: 769px) {
+    section#aprendizaje h1~h2{
+        font-size: 4vw;
+    }
+    section#Retro p {
+        font-size: 3vw;
+        line-height: 6vw;
+        padding: 2vw;
+    }
+    
+    h1#titulo1 {
+        font-size: 3vw;
+        padding: 1vw;
+
+    }
+    
+    nav {
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+    nav span a {
+        display: inline;
+        font-size: 1.5vw;
+        margin: 2vw;
+    }
+    footer {
+        position: static;
+        height: 1vw;
+        padding: 2vw;
+        width: 95.5%;
+    }
+
+    section.Datos h1 {
+        font-size: 4vw;
+    }
+    
+    section.Datos h2 {
+        font-size: 3vw;
+    }
+    section.Datos p {
+        line-height: 5vw;
+        font-size: 2.5vw;
+    }
+
+    section#ejercicios h1 {
+        padding-bottom: 2vw;
+        font-size: 5vw;
+        position: absolute;
+        top: 83VW;
+    }
+
+
+    section#ejercicios article {
+        width: 37%;
+        margin: 1vw;
+        border-radius: 8vw;
+        margin-top: 3vw;
+    }
+    
+    section#ejercicios article p {
+        line-height: 4vw;
+        font-size: 2VW;
+    }
+    
+    section#ejercicios article ul {
+        line-height: 4vw;
+        margin-top: 3vw;
+
+    }
+    
+    section#ejercicios article li {
+        list-style: none;
+        font-size: 2.5vw;
+    }
+
+
+
+    section#FODA {
+        padding-top: 1vw;
+        margin: 5vw;
+    }
+    
+    section#FODA h1 {
+        font-size: 6vw;
+    }
+
+    section#FODA article.cajas h2 {
+        font-size: 5vw;
+    }
+    
+    section#FODA article.cajas div li {
+        font-size: 3vw;
+    }
+
+
+    section#aprendizaje{
+        margin: 5VW 8VW 5VW;
+    }
+    
+    section#aprendizaje li a{
+        text-decoration: none;
+    line-height: 4vw;
+    font-family: "Concert One", sans-serif;
+    color: var(--color5);
+    font-size: 3vw;
+    
+    }
+    
+    section#aprendizaje p{
+        line-height: 4vw;
+        font-size: 3vw;
+    }
+
+
+    section#Retro h1, section#aprendizaje h1{
+        font-size: 5vw;
+    }
+    
+    
+}
