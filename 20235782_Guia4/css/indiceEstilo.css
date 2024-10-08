@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --color1: #9287c9;
+    --color2: #fff;
+    --color3: #f0e7e9;
+    --color4: #d2c7ff;
+    --color5: #3c3839;
+    --color6: #5e5491;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color3);
+}
+
+header {
+    background-color: var(--color4);
+}
+
+h1#titulo1 {
+    text-align: center;
+    font-size: 6.5vw;
+    font-family: "Concert One", sans-serif;
+    padding: 4vw;
+    color: var(--color5);
+}
+
+nav {
+    background-color: var(--color1);
+    width: 100%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    text-align: center;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+
+nav span a {
+    text-decoration: none;
+    display: block;
+    color: var(--color2);
+    font-family: "Shantell Sans", cursive;
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+a:hover {
+    color: var(--color4);
+    transform: scale(1.2);
+}
+
+
+section.Datos article,
+section#ejercicios {
+    margin-top: 5vw;
+    padding: 0 6vw 0;
+}
+
+section.Datos h1 {
+    font-family: "Shantell Sans", cursive;
+    color: var(--color6);
+    font-size: 8vw;
+    text-align: left;
+    padding-bottom: 2vw;
+    margin-top: 4vw;
+}
+
+section.Datos h2 {
+    font-family: "Shantell Sans", cursive;
+    color: var(--color5);
+    font-size: 5vw;
+    text-align: center;
+}
+
+section.Datos p {
+    margin-top: 2vw;
+    font-family: "Concert One", sans-serif;
+    color: var(--color5);
+    line-height: 8vw;
+    text-align: justify;
+    font-size: 5vw;
+}
+
+section#ejercicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section#ejercicios h1 {
+    padding-bottom: 4vw;
+    font-family: "Shantell Sans", cursive;
+    color: var(--color5);
+    font-size: 8vw;
+}
+
+section#ejercicios article {
+    width: 75%;
+    background-color: var(--color4);
+    padding: 4vw;
+    font-family: "Concert One", sans-serif;
+    border-radius: 8vw;
+    margin-top: 3vw;
+    border: solid 2px var(--color5);
+}
+
+section#ejercicios article h2 {
+    text-align: center;
+    color: var(--color6);
+}
+
+section#ejercicios article p {
+    line-height: 7vw;
+    text-align: justify;
+}
+
+section#ejercicios article ul {
+    line-height: 8vw;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--color5);
+}
+
+section#ejercicios article li {
+    list-style: none;
+}
+
+section#ejercicios article li a {
+    text-decoration: none;
+    color: var(--color5);
+}
+
+section#ejercicios article li:hover {
+    color: var(--color6);
+    transform: scale(1.2);
+}
+
+section#FODA {
+    padding-top: 4vw;
+    margin: 10vw;
+}
+
+section#FODA h1 {
+    text-align: center;
+    color: var(--color6);
+    font-family: "Shantell Sans", cursive;
+    font-size: 8vw;
+}
+
+
+section#FODA article.cajas {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Concert One", sans-serif;
+}
+
+section#FODA article.cajas h2 {
+    color: var(--color5);
+}
+
+section#FODA article.cajas div {
+    width: 43%;
+    padding: 2vw;
+    text-align: center;
+
+}
+
+#primer {
+    border-bottom: solid 2px var(--color5);
+    border-right: solid 2px var(--color5);
+}
+
+#segundo {
+    border-bottom: solid 2px var(--color5);
+    border-collapse: collapse;
+}
+
+#tercero {
+    border-right: solid 2px var(--color5);
+
+}
+
+section#FODA article.cajas div li {
+    list-style: none;
+    padding: 3vw;
+}
+
+section#Retro, section#aprendizaje {
+    padding: 0 4vw;
+    font-family: "Concert One", sans-serif;
+    color: var(--color5);
+}
+
+section#Retro h1, section#aprendizaje h1{
+    color: var(--color6);
+    font-family: "Shantell Sans", cursive;
+    font-size: 8vw;
+    text-align: center;
+    padding: 3vw;
+}
+
+section#Retro p {
+    font-size: 5vw;
+    line-height: 8vw;
+    text-align: justify;
+    padding: 4vw;
+}
+
+section#Retro p span {
+    color: var(--color6);
+    font-weight: bold;
+    font-style: italic;
+}
+
+section#aprendizaje h1~h2{
+    font-family: "Shantell Sans", cursive;
+    color: var(--color5);
+    font-size: 7vw;
+    text-align: center;
+}
+
+section#aprendizaje{
+    margin: 5VW 8VW 15VW;
+}
+
+section#aprendizaje li a{
+    text-decoration: none;
+line-height: 10vw;
+font-family: "Concert One", sans-serif;
+color: var(--color5);
+font-size: 5vw;
+
+}
+
+section#aprendizaje p{
+    line-height: 8vw;
+    font-size: 5vw;
+}
+
+
+
+footer {
+    position: fixed;
+    background-color: var(--color1);
+    bottom: 0;
+    width: 100%;
+    height: 4vw;
+    text-align: center;
+    padding: 3vw;
+    color: var(--color2);
+    font-family: "Concert One", sans-serif;
+}
