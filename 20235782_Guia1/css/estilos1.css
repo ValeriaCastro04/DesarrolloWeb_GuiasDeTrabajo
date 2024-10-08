@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+}
+#Textos{
+    font-size: 20px;
+}
+
+h2{
+    text-decoration: underline;
+    color:#FFFFFF;
+}
+
+#text1{
+    color: navy;
+    font-weight: bold;
+}
+
+#text2{
+    text-transform: uppercase;
+    text-align:justify;
+}
+#text3{
+    font-size: 12px;
+}
+span{
+    font-style: italic;
+}

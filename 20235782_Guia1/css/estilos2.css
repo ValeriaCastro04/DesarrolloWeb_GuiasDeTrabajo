@@ -1,0 +1,95 @@
+body{
+    font-family: "Caveat", cursive;
+    background-color: #f5f5f5;
+    line-height: 1;
+    color: #5D5D5D;
+    text-align: center;
+}
+
+.Title{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#Main{
+    color: #f38484;
+    margin-top: 25px;
+}
+
+#subtitle{
+    color: #F4A6A6;
+}
+
+#Novelat{
+    font-style: italic;
+}
+
+.Introduction p{
+    font-size: 23px;
+    width: 80%;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.Characters .MainCharacTitle{
+    color: #c28cf5;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.foto-personajes{
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border-radius: 70%;
+}
+
+.Characters p{
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto 20px auto;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.Characters .SupportingCharTitle{
+    color: #8c9cf5;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.fotos-Sidechara{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.SideCharac{
+    text-align: center;
+}
+
+.Personajes{
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.Personajes th, .Personajes td{
+    border: 1px solid #757171;
+    padding: 10px;
+    text-align: center;
+}
+
+.Personajes th{
+    background-color: #f38484;
+    color: white;
+    font-weight: bold;
+}
