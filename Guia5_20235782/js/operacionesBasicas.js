@@ -41,7 +41,7 @@ function dividir() {
     let mensaje;
     if (numero2 != 0) {
         resultado = numero1 / numero2;
-        mensaje = `${numero1} x ${numero2} = ${resultado}`;
+        mensaje = `${numero1} / ${numero2} = ${resultado}`;
     }
     else {
         
